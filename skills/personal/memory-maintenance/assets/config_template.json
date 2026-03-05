@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "project_name": "memory-maintenance",
+    "description": "记忆维护工具 - 帮助小木子系统化管理日常笔记和长期记忆库"
+  },
+  "schedule": {
+    "daily_check_interval_days": 5,
+    "memory_update_threshold_days": 7,
+    "timezone": "UTC"
+  },
+  "paths": {
+    "workspace_dir": "/home/node/.openclaw/workspace",
+    "memory_dir": "${workspace_dir}/memory",
+    "daily_notes_pattern": "YYYY-MM-DD.md",
+    "longterm_file": "MEMORY.md"
+  },
+  "preferences": {
+    "language": "zh-CN",
+    "use_emoji": true,
+    "include_timestamps": true,
+    "auto_commit_to_memory": true
+  }
+}
